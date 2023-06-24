@@ -326,7 +326,7 @@ export default function Content() {
                 <div className="mx-auto max-w-7xl px-6 -mt-48">
                     <div className="px-8 lg:px-12 sm:px-6 mb-12">
                         <div className="bg-blue-800 rounded-lg shadow-lg overflow-hidden">
-                            <div className="flex flex-col justify-center items-center p-4">
+                            <div id="contact" className="flex flex-col justify-center items-center p-4">
                                 <h3 className="text-3xl text-white text-center font-semibold m-2">Full-stack Developer for Hire</h3>
                                 <p className="p-4 text-lg text-center text-white">{"Seeking a skilled, motivated team member? Let's collaborate, exceed expectations, and achieve remarkable outcomes!"}</p>
                                 <div className="flex flex-col sm:flex-row">

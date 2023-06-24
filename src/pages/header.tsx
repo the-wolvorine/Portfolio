@@ -51,6 +51,7 @@ export default function Header() {
           <Link to="experience" spy={true} smooth={true} className="transition ease-in-out duration-500 hover:-translate-1 hover:scale-110 text-md font-semibold leading-6 text-black cursor-pointer">Experience</Link>
           <Link to="projects" spy={true} smooth={true} className="transition ease-in-out duration-500 hover:-translate-1 hover:scale-110 text-md font-semibold leading-6 text-black cursor-pointer">Projects</Link>
           <Link to="skills" spy={true} smooth={true} className="transition ease-in-out duration-500 hover:-translate-1 hover:scale-110 text-md font-semibold leading-6 text-black cursor-pointer">Skills</Link>
+          <Link to="contact" spy={true} smooth={true} className="transition ease-in-out duration-500 hover:-translate-1 hover:scale-110 text-md font-semibold leading-6 text-black cursor-pointer">Contact</Link>
         </Popover.Group>
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -77,6 +78,7 @@ export default function Header() {
                 <Link to="experience" onClick={() => setMobileMenuOpen(false)} spy={true} smooth={true} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-indigo-200 cursor-pointer">Experience</Link>
                 <Link to="projects" onClick={() => setMobileMenuOpen(false)} spy={true} smooth={true} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-indigo-200 cursor-pointer">Projects</Link>
                 <Link to="skills" onClick={() => setMobileMenuOpen(false)} spy={true} smooth={true} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-indigo-200 cursor-pointer">Skills</Link>
+                <Link to="contact" onClick={() => setMobileMenuOpen(false)} spy={true} smooth={true} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-indigo-200 cursor-pointer">Contact</Link>
               </div>
             </div>
           </div>
