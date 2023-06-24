@@ -5,7 +5,8 @@ import {
     ArrowTopRightOnSquareIcon,
     PhoneArrowUpRightIcon,
     ChevronDoubleUpIcon,
-    EnvelopeIcon
+    EnvelopeIcon,
+    DocumentArrowDownIcon
 } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 import {animateScroll as scroll} from 'react-scroll';
@@ -13,6 +14,10 @@ import {animateScroll as scroll} from 'react-scroll';
 export default function Content() {
     const handleScrollToTop = () => {
         scroll.scrollToTop();
+    };
+    const handleDownload = () => {
+        const win = window.open('/Uday_Cheekatipalli_Resume.pdf', '_blank');
+        win?.focus();
     };
     return (
         <div className="font-sans relative isolate w-full">
@@ -330,6 +335,13 @@ export default function Content() {
                                 <h3 className="text-3xl text-white text-center font-semibold m-2">Full-stack Developer for Hire</h3>
                                 <p className="p-4 text-lg text-center text-white">{"Seeking a skilled, motivated team member? Let's collaborate, exceed expectations, and achieve remarkable outcomes!"}</p>
                                 <div className="flex flex-col sm:flex-row">
+                                    <div className="p-4">
+                                    <button onClick={handleDownload}
+                                        title="View & Download"
+                                        className="transition ease-in-out duration-700 hover:-translate-1 hover:scale-110 px-4 flex border-2 rounded-lg bg-blue-800 px-3.5 py-2.5 shadow-sm hover:bg-green-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 text-white hover:text-black">
+                                        <p className="text-center text-lg font-semibold px-4">My Résumé</p><DocumentArrowDownIcon className="h-6 w-6 text-lg" />
+                                    </button>
+                                    </div>
                                     <div className="p-4">
                                     <a href="tel:+3143192625" title="Make a call">
                                         <button className="transition ease-in-out duration-700 hover:-translate-1 hover:scale-110 px-4 flex border-2 rounded-lg bg-blue-800 px-3.5 py-2.5 shadow-sm hover:bg-green-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 text-white hover:text-black">
