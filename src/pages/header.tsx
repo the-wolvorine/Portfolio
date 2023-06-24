@@ -73,10 +73,10 @@ export default function Header() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-                <Link to="about" spy={true} smooth={true} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-indigo-200 cursor-pointer">About</Link>
-                <Link to="experience" spy={true} smooth={true} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-indigo-200 cursor-pointer">Experience</Link>
-                <Link to="projects" spy={true} smooth={true} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-indigo-200 cursor-pointer">Projects</Link>
-                <Link to="skills" spy={true} smooth={true} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-indigo-200 cursor-pointer">Skills</Link>
+                <Link to="about" onClick={() => setMobileMenuOpen(false)} spy={true} smooth={true} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-indigo-200 cursor-pointer">About</Link>
+                <Link to="experience" onClick={() => setMobileMenuOpen(false)} spy={true} smooth={true} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-indigo-200 cursor-pointer">Experience</Link>
+                <Link to="projects" onClick={() => setMobileMenuOpen(false)} spy={true} smooth={true} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-indigo-200 cursor-pointer">Projects</Link>
+                <Link to="skills" onClick={() => setMobileMenuOpen(false)} spy={true} smooth={true} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-indigo-200 cursor-pointer">Skills</Link>
               </div>
             </div>
           </div>
