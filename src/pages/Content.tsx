@@ -216,105 +216,105 @@ export default function Content() {
                         <Image
                             className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/react.png"
-                            alt="Transistor"
+                            alt="ReactJS"
                             width={158}
                             height={48}
                         />
                         <Image
                             className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/angularjs.png"
-                            alt="Reform"
+                            alt="AngularJS"
                             width={158}
                             height={48}
                         />
                         <Image
                             className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/JavaScript.png"
-                            alt="Tuple"
+                            alt="JavaScript"
                             width={158}
                             height={48}
                         />
                         <Image
                             className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/nextjs.png"
-                            alt="SavvyCal"
+                            alt="nextJS"
                             width={158}
                             height={48}
                         />
                         <Image
                             className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
-                            src="/node.png"
-                            alt="Statamic"
+                            src="/nodeJS.png"
+                            alt="Node"
                             width={158}
                             height={48}
                         />
                         <Image
                             className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
-                            src="/ruby.png"
-                            alt="Statamic"
+                            src="/RubyLogo.png"
+                            alt="Ruby"
                             width={158}
                             height={48}
                         />
                         <Image
                             className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
-                            src="/java.png"
-                            alt="Statamic"
+                            src="/Java_logo_icon.png"
+                            alt="Java"
                             width={158}
                             height={48}
                         />
                         <Image
                             className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/python.png"
-                            alt="Statamic"
+                            alt="Python"
                             width={158}
                             height={48}
                         />
                         <Image
                             className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/jest-logo.png"
-                            alt="Statamic"
+                            alt="Jest"
                             width={158}
                             height={48}
                         />
                         <Image
                             className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/selenium.png"
-                            alt="Statamic"
+                            alt="Selenium"
                             width={158}
                             height={48}
                         />
                         <Image
                             className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/GitHub.png"
-                            alt="Statamic"
+                            alt="GitHub"
                             width={158}
                             height={48}
                         />
                         <Image
                             className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
-                            src="/bitbucket-logo.png"
-                            alt="Statamic"
+                            src="/Bitbucket.png"
+                            alt="Bitbucket"
                             width={158}
                             height={48}
                         />
                         <Image
                             className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/MySQL-Logo.png"
-                            alt="Statamic"
+                            alt="MySQL"
                             width={158}
                             height={48}
                         />
                         <Image
                             className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/firebase.png"
-                            alt="Statamic"
+                            alt="Firebase"
                             width={158}
                             height={48}
                         />
                         <Image
                             className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/mongodb.png"
-                            alt="Statamic"
+                            alt="MongoDB"
                             width={158}
                             height={48}
                         />
