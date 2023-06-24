@@ -8,6 +8,22 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+/* Scrollbar Track */
+::-webkit-scrollbar {
+  width: 10px; /* Adjust the width as per your preference */
+}
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #81C784; /* Customize the color of the scrollbar thumb */
+  border-radius: 5px; /* Adjust the border radius as per your preference */
+}
+
+/* Scrollbar Track on Hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #3e5760; /* Customize the color of the scrollbar thumb on hover */
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -17,11 +33,6 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: black;
+  background: white;
 }
