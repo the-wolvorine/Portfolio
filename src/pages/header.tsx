@@ -47,10 +47,10 @@ export default function Header() {
             >
             </Transition>
           </Popover>
-          <Link to="about" spy={true} smooth={true} className="text-md font-semibold leading-6 text-black cursor-pointer">About</Link>
-          <Link to="experience" spy={true} smooth={true} className="text-md font-semibold leading-6 text-black cursor-pointer">Experience</Link>
-          <Link to="projects" spy={true} smooth={true} className="text-md font-semibold leading-6 text-black cursor-pointer">Projects</Link>
-          <Link to="skills" spy={true} smooth={true} className="text-md font-semibold leading-6 text-black cursor-pointer">Skills</Link>
+          <Link to="about" spy={true} smooth={true} className="transition ease-in-out duration-500 hover:-translate-1 hover:scale-110 text-md font-semibold leading-6 text-black cursor-pointer">About</Link>
+          <Link to="experience" spy={true} smooth={true} className="transition ease-in-out duration-500 hover:-translate-1 hover:scale-110 text-md font-semibold leading-6 text-black cursor-pointer">Experience</Link>
+          <Link to="projects" spy={true} smooth={true} className="transition ease-in-out duration-500 hover:-translate-1 hover:scale-110 text-md font-semibold leading-6 text-black cursor-pointer">Projects</Link>
+          <Link to="skills" spy={true} smooth={true} className="transition ease-in-out duration-500 hover:-translate-1 hover:scale-110 text-md font-semibold leading-6 text-black cursor-pointer">Skills</Link>
         </Popover.Group>
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>

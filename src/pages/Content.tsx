@@ -29,7 +29,7 @@ export default function Content() {
             <section className="flex flex-row flex-wrap justify-center items-center px-10 pb-10">
                 <div className="w-full md:w-1/2 xl:w-1/3 -mx-4 -mt-10">
                     <div className="px-8 lg:px-12 sm:px-6 mb-12">
-                        <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:bg-slate-300">
+                        <div className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 bg-white rounded-lg shadow-lg overflow-hidden">
                             <div className="flex flex-col justify-center items-center p-4" style={{"minHeight": "30rem"}}>
                             <WindowIcon className="h-16 w-16 text-slate-900 bg-green-300 rounded-lg" aria-hidden="true" />
                             <h3 className="text-xl font-semibold m-2">Frontend Developer</h3>
@@ -40,7 +40,7 @@ export default function Content() {
                 </div>
                 <div className="w-full md:w-1/2 xl:w-1/3 -mx-4 -mt-10">
                     <div className="px-8 lg:px-12 sm:px-6 mb-12">
-                        <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:bg-slate-300">
+                        <div className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 bg-white rounded-lg shadow-lg overflow-hidden">
                             <div className="flex flex-col justify-center items-center p-4" style={{"minHeight": "30rem"}}>
                             <ShieldCheckIcon className="h-16 w-16 text-slate-900 bg-green-300 rounded-lg" aria-hidden="true" />
                             <h3 className="text-xl font-semibold m-2">Quality Analyst</h3>
@@ -51,7 +51,7 @@ export default function Content() {
                 </div>
                 <div className="w-full md:w-1/2 xl:w-1/3 -mx-4 -mt-10">
                     <div className="px-8 lg:px-12 sm:px-6 mb-12">
-                        <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:bg-slate-300">
+                        <div className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 bg-white rounded-lg shadow-lg overflow-hidden">
                             <div className="flex flex-col justify-center items-center p-4" style={{"minHeight": "30rem"}}>
                             <CommandLineIcon className="h-16 w-16 text-slate-900 bg-green-300 rounded-lg" aria-hidden="true" />
                             <h3 className="text-xl font-semibold m-2">Backend Developer</h3>
@@ -164,18 +164,18 @@ export default function Content() {
                     <div className="flex flex-row flex-wrap justify-center items-center">
                         <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 mt-8">
                             <div className="px-8 lg:px-12 sm:px-6 mb-12">
-                                <div className="bg-white rounded-lg shadow-lg shadow-cyan-500/50 overflow-hidden hover:bg-slate-300">
+                                <div className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 bg-white rounded-lg shadow-lg shadow-cyan-500/50 overflow-hidden">
                                     <div className="flex flex-col justify-center items-center p-4" style={{"minHeight": "25rem"}}>
                                     <h3 className="text-xl font-semibold m-2">Keep View Note</h3>
                                     <p className="p-4 text-center text-black"><b>Keep View Note</b> is a powerful note-saving application built using <b>ReactJS</b> and <b>Firebase</b>. It provides users with a seamless experience to create, edit, and organize their notes effectively.</p>
-                                    <a href="https://github.com/the-wolvorine/Keep-View-Note" className="flex text-blue-600 visited:text-purple-600 ...">Github<ArrowTopRightOnSquareIcon className="h-6 w-4" aria-hidden="true" /></a>
+                                    <a href="https://github.com/the-wolvorine/Keep-View-Note" className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 flex text-blue-600 visited:text-purple-600 ...">Github<ArrowTopRightOnSquareIcon className="h-6 w-4" aria-hidden="true" /></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 mt-8">
                             <div className="px-8 lg:px-12 sm:px-6 mb-12">
-                                <div className="bg-white rounded-lg shadow-lg shadow-cyan-500/50 overflow-hidden hover:bg-slate-300">
+                                <div className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 bg-white rounded-lg shadow-lg shadow-cyan-500/50 overflow-hidden">
                                     <div className="flex flex-col justify-center items-center p-4" style={{"minHeight": "25rem"}}>
                                     <h3 className="text-xl font-semibold m-2">SnugSquare</h3>
                                     <p className="p-4 text-center text-black">SnugSquare is a cutting-edge e-commerce web application designed for enterprise-level B2B transactions. SnugSquare offers a seamless user experience and leverages advanced technologies to ensure efficient operations and reliable performance.</p>
@@ -185,7 +185,7 @@ export default function Content() {
                         </div>
                         <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 mt-8">
                             <div className="px-8 lg:px-12 sm:px-6 mb-12">
-                                <div className="bg-white rounded-lg shadow-lg shadow-cyan-500/50 overflow-hidden hover:bg-slate-300">
+                                <div className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 bg-white rounded-lg shadow-lg shadow-cyan-500/50 overflow-hidden">
                                     <div className="flex flex-col justify-center items-center p-4" style={{"minHeight": "25rem"}}>
                                     <h3 className="text-xl font-semibold m-2">Inbag</h3>
                                     <p className="p-4 text-center text-black">{"InBag is a timely and convenient online marketplace that caters to people's essential needs, delivering products directly to their doorstep amidst the COVID-19 lockdown. It's tech stack consisting of Angular, and Ruby on Rails, ensuring a seamless user experience."}</p>
@@ -195,7 +195,7 @@ export default function Content() {
                         </div>
                         <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 mt-8">
                             <div className="px-8 lg:px-12 sm:px-6 mb-12">
-                                <div className="bg-white rounded-lg shadow-lg shadow-cyan-500/50 overflow-hidden hover:bg-slate-300">
+                                <div className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 bg-white rounded-lg shadow-lg shadow-cyan-500/50 overflow-hidden">
                                     <div className="flex flex-col justify-center items-center p-4" style={{"minHeight": "25rem"}}>
                                     <h3 className="text-xl font-semibold m-2">NovoJuris</h3>
                                     <p className="p-4 text-center text-black">NovoJuris Legal is a modern law firm that simplifies the legal process by offering an accessible platform for customers to create legal documents, receive expert legal advice from top lawyers, and conveniently download the necessary documents.</p>
@@ -214,105 +214,105 @@ export default function Content() {
                         </h2>
                         <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
                         <Image
-                            className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                            className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/react.png"
                             alt="Transistor"
                             width={158}
                             height={48}
                         />
                         <Image
-                            className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                            className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/angularjs.png"
                             alt="Reform"
                             width={158}
                             height={48}
                         />
                         <Image
-                            className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                            className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/JavaScript.png"
                             alt="Tuple"
                             width={158}
                             height={48}
                         />
                         <Image
-                            className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                            className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/nextjs.png"
                             alt="SavvyCal"
                             width={158}
                             height={48}
                         />
                         <Image
-                            className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                            className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/node.png"
                             alt="Statamic"
                             width={158}
                             height={48}
                         />
                         <Image
-                            className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                            className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/ruby.png"
                             alt="Statamic"
                             width={158}
                             height={48}
                         />
                         <Image
-                            className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                            className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/java.png"
                             alt="Statamic"
                             width={158}
                             height={48}
                         />
                         <Image
-                            className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                            className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/python.png"
                             alt="Statamic"
                             width={158}
                             height={48}
                         />
                         <Image
-                            className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                            className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/jest-logo.png"
                             alt="Statamic"
                             width={158}
                             height={48}
                         />
                         <Image
-                            className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                            className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/selenium.png"
                             alt="Statamic"
                             width={158}
                             height={48}
                         />
                         <Image
-                            className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                            className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/GitHub.png"
                             alt="Statamic"
                             width={158}
                             height={48}
                         />
                         <Image
-                            className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                            className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/bitbucket-logo.png"
                             alt="Statamic"
                             width={158}
                             height={48}
                         />
                         <Image
-                            className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                            className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/MySQL-Logo.png"
                             alt="Statamic"
                             width={158}
                             height={48}
                         />
                         <Image
-                            className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                            className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/firebase.png"
                             alt="Statamic"
                             width={158}
                             height={48}
                         />
                         <Image
-                            className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                            className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                             src="/mongodb.png"
                             alt="Statamic"
                             width={158}
@@ -332,14 +332,14 @@ export default function Content() {
                                 <div className="flex flex-col sm:flex-row">
                                     <div className="p-4">
                                     <a href="tel:+3143192625" title="Make a call">
-                                        <button className="px-4 flex border-2 rounded-lg bg-blue-800 px-3.5 py-2.5 shadow-sm hover:bg-green-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 text-white hover:text-black">
+                                        <button className="transition ease-in-out duration-700 hover:-translate-1 hover:scale-110 px-4 flex border-2 rounded-lg bg-blue-800 px-3.5 py-2.5 shadow-sm hover:bg-green-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 text-white hover:text-black">
                                             <p className="text-center text-lg font-semibold px-4">Say Hello</p><PhoneArrowUpRightIcon className="h-6 w-6 text-lg" />
                                         </button>
                                     </a>
                                     </div>
                                     <div className="p-4">
                                     <a href="mailto:udaycreddy11@gmail.com" title="Send an Email">
-                                        <button className="px-4 flex border-2 rounded-lg bg-blue-800 px-3.5 py-2.5 shadow-sm hover:bg-green-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 text-white hover:text-black">
+                                        <button className="transition ease-in-out duration-700 hover:-translate-1 hover:scale-110 px-4 flex border-2 rounded-lg bg-blue-800 px-3.5 py-2.5 shadow-sm hover:bg-green-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 text-white hover:text-black">
                                             <p className="text-center text-lg font-semibold px-4">Email Me</p><EnvelopeIcon className="h-6 w-6 text-lg" />
                                         </button>
                                     </a>
@@ -356,13 +356,13 @@ export default function Content() {
                     <p className="pt-4 text-2xl text-center text-white w-96">Learn, Think, Code & Execute </p>
                     <p className="pb-4 text-2xl text-center text-white w-80">one program at a time.</p>
                     <div className="flex flex-row text-white p-4">
-                        <a href="https://github.com/the-wolvorine" target="_blank" className="px-4 hover:text-green-300" rel="noreferrer">
+                        <a href="https://github.com/the-wolvorine" target="_blank" className="transition ease-in-out duration-500 hover:-translate-2 hover:scale-110 px-4 hover:text-green-300" rel="noreferrer">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-8 w-8" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
                         </a>
-                        <a href="https://www.linkedin.com/in/uday-cheekatipalli" target="_blank" className="px-4 hover:text-green-300" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/uday-cheekatipalli" target="_blank" className="transition ease-in-out duration-500 hover:-translate-2 hover:scale-110 px-4 hover:text-green-300" rel="noreferrer">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-8 w-8" aria-hidden="true"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path></svg>
                         </a>
-                        <a href="https://www.instagram.com/uday_reddy_c" target="_blank" className="px-4 hover:text-green-300" rel="noreferrer">
+                        <a href="https://www.instagram.com/uday_reddy_c" target="_blank" className="transition ease-in-out duration-500 hover:-translate-2 hover:scale-110 px-4 hover:text-green-300" rel="noreferrer">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="currentColor" className="h-8 w-8" aria-hidden="true"><path d="M295.42,6c-53.2,2.51-89.53,11-121.29,23.48-32.87,12.81-60.73,30-88.45,57.82S40.89,143,28.17,175.92c-12.31,31.83-20.65,68.19-23,121.42S2.3,367.68,2.56,503.46,3.42,656.26,6,709.6c2.54,53.19,11,89.51,23.48,121.28,12.83,32.87,30,60.72,57.83,88.45S143,964.09,176,976.83c31.8,12.29,68.17,20.67,121.39,23s70.35,2.87,206.09,2.61,152.83-.86,206.16-3.39S799.1,988,830.88,975.58c32.87-12.86,60.74-30,88.45-57.84S964.1,862,976.81,829.06c12.32-31.8,20.69-68.17,23-121.35,2.33-53.37,2.88-70.41,2.62-206.17s-.87-152.78-3.4-206.1-11-89.53-23.47-121.32c-12.85-32.87-30-60.7-57.82-88.45S862,40.87,829.07,28.19c-31.82-12.31-68.17-20.7-121.39-23S637.33,2.3,501.54,2.56,348.75,3.4,295.42,6m5.84,903.88c-48.75-2.12-75.22-10.22-92.86-17-23.36-9-40-19.88-57.58-37.29s-28.38-34.11-37.5-57.42c-6.85-17.64-15.1-44.08-17.38-92.83-2.48-52.69-3-68.51-3.29-202s.22-149.29,2.53-202c2.08-48.71,10.23-75.21,17-92.84,9-23.39,19.84-40,37.29-57.57s34.1-28.39,57.43-37.51c17.62-6.88,44.06-15.06,92.79-17.38,52.73-2.5,68.53-3,202-3.29s149.31.21,202.06,2.53c48.71,2.12,75.22,10.19,92.83,17,23.37,9,40,19.81,57.57,37.29s28.4,34.07,37.52,57.45c6.89,17.57,15.07,44,17.37,92.76,2.51,52.73,3.08,68.54,3.32,202s-.23,149.31-2.54,202c-2.13,48.75-10.21,75.23-17,92.89-9,23.35-19.85,40-37.31,57.56s-34.09,28.38-57.43,37.5c-17.6,6.87-44.07,15.07-92.76,17.39-52.73,2.48-68.53,3-202.05,3.29s-149.27-.25-202-2.53m407.6-674.61a60,60,0,1,0,59.88-60.1,60,60,0,0,0-59.88,60.1M245.77,503c.28,141.8,115.44,256.49,257.21,256.22S759.52,643.8,759.25,502,643.79,245.48,502,245.76,245.5,361.22,245.77,503m90.06-.18a166.67,166.67,0,1,1,167,166.34,166.65,166.65,0,0,1-167-166.34"></path></svg>
                         </a>
                     </div>
@@ -377,7 +377,7 @@ export default function Content() {
                 <div className="flex flex-row-reverse px-8">
                     <button 
                         onClick={handleScrollToTop} 
-                        className="border-2 rounded-full bg-green-300 px-3.5 py-2.5 shadow-sm hover:bg-blue-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 text-black hover:text-white"
+                        className="animate-bounce border-2 rounded-full bg-green-300 px-3.5 py-2.5 shadow-sm hover:bg-blue-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 text-black hover:text-white"
                         title="Move to top">
                         <ChevronDoubleUpIcon className="h-8 w-6"/>
                     </button>
