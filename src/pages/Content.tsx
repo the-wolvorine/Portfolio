@@ -27,8 +27,8 @@ export default function Content() {
                 </div>
             </section>
             <section className="flex flex-row flex-wrap justify-center items-center px-10 pb-10">
-                <div className="w-full md:w-1/2 xl:w-1/3 -mx-4 -mt-10">
-                    <div className="px-8 lg:px-12 sm:px-6 mb-12">
+                <div className="w-full md:w-1/2 xl:w-1/3 -mx-4 -mt-10 mb-10">
+                    <div className="px-0 lg:px-12 sm:px-6 mb-12">
                         <div className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 bg-white rounded-lg shadow-lg overflow-hidden">
                             <div className="flex flex-col justify-center items-center p-4" style={{"minHeight": "30rem"}}>
                             <WindowIcon className="h-16 w-16 text-slate-900 bg-green-300 rounded-lg" aria-hidden="true" />
@@ -38,8 +38,8 @@ export default function Content() {
                         </div>
                     </div>
                 </div>
-                <div className="w-full md:w-1/2 xl:w-1/3 -mx-4 -mt-10">
-                    <div className="px-8 lg:px-12 sm:px-6 mb-12">
+                <div className="w-full md:w-1/2 xl:w-1/3 -mx-4 -mt-10 mb-10">
+                    <div className="px-0 lg:px-12 sm:px-6 mb-12">
                         <div className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 bg-white rounded-lg shadow-lg overflow-hidden">
                             <div className="flex flex-col justify-center items-center p-4" style={{"minHeight": "30rem"}}>
                             <ShieldCheckIcon className="h-16 w-16 text-slate-900 bg-green-300 rounded-lg" aria-hidden="true" />
@@ -49,8 +49,8 @@ export default function Content() {
                         </div>
                     </div>
                 </div>
-                <div className="w-full md:w-1/2 xl:w-1/3 -mx-4 -mt-10">
-                    <div className="px-8 lg:px-12 sm:px-6 mb-12">
+                <div className="w-full md:w-1/2 xl:w-1/3 -mx-4 -mt-10 mb-10">
+                    <div className="px-0 lg:px-12 sm:px-6 mb-12">
                         <div className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 bg-white rounded-lg shadow-lg overflow-hidden">
                             <div className="flex flex-col justify-center items-center p-4" style={{"minHeight": "30rem"}}>
                             <CommandLineIcon className="h-16 w-16 text-slate-900 bg-green-300 rounded-lg" aria-hidden="true" />
@@ -162,8 +162,8 @@ export default function Content() {
                     <h2 className="text-3xl text-center font-bold tracking-tight text-white sm:text-4xl">My Recent Projects.</h2>
                     </div>
                     <div className="flex flex-row flex-wrap justify-center items-center">
-                        <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 mt-8">
-                            <div className="px-8 lg:px-12 sm:px-6 mb-12">
+                        <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/4 mt-8">
+                            <div className="px-0 lg:px-12 sm:px-6 mb-12">
                                 <div className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 bg-white rounded-lg shadow-lg shadow-cyan-500/50 overflow-hidden">
                                     <div className="flex flex-col justify-center items-center p-4" style={{"minHeight": "25rem"}}>
                                     <h3 className="text-xl font-semibold m-2">Keep View Note</h3>
@@ -173,8 +173,8 @@ export default function Content() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 mt-8">
-                            <div className="px-8 lg:px-12 sm:px-6 mb-12">
+                        <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/4 mt-8">
+                            <div className="px-0 lg:px-12 sm:px-6 mb-12">
                                 <div className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 bg-white rounded-lg shadow-lg shadow-cyan-500/50 overflow-hidden">
                                     <div className="flex flex-col justify-center items-center p-4" style={{"minHeight": "25rem"}}>
                                     <h3 className="text-xl font-semibold m-2">SnugSquare</h3>
@@ -183,8 +183,8 @@ export default function Content() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 mt-8">
-                            <div className="px-8 lg:px-12 sm:px-6 mb-12">
+                        <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/4 mt-8">
+                            <div className="px-0 lg:px-12 sm:px-6 mb-12">
                                 <div className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 bg-white rounded-lg shadow-lg shadow-cyan-500/50 overflow-hidden">
                                     <div className="flex flex-col justify-center items-center p-4" style={{"minHeight": "25rem"}}>
                                     <h3 className="text-xl font-semibold m-2">Inbag</h3>
@@ -193,8 +193,8 @@ export default function Content() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 mt-8">
-                            <div className="px-8 lg:px-12 sm:px-6 mb-12">
+                        <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/4 mt-8">
+                            <div className="px-0 lg:px-12 sm:px-6 mb-12">
                                 <div className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 bg-white rounded-lg shadow-lg shadow-cyan-500/50 overflow-hidden">
                                     <div className="flex flex-col justify-center items-center p-4" style={{"minHeight": "25rem"}}>
                                     <h3 className="text-xl font-semibold m-2">NovoJuris</h3>
@@ -350,7 +350,7 @@ export default function Content() {
                     </div>
                 </div>
                 <div className="flex flex-col justify-center items-center">
-                    <a href="#">
+                    <a href="https://uday-cheekatipalli.vercel.app/">
                         <Image src="/lite-logo.png" width={150} height={20} alt="Logo" />
                     </a>
                     <p className="pt-4 text-2xl text-center text-white w-96">Learn, Think, Code & Execute </p>
