@@ -1,5 +1,6 @@
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import { NextSeo } from "next-seo";
+
 import Header from './header'
 import Hero from './hero'
 import Content from './Content'
@@ -11,6 +12,18 @@ export default function Home() {
     <main
       className={`flex flex-col items-center justify-between ${inter.className}`}
     >
+      <NextSeo
+        title="Uday Cheekatipalli | Full-Stack Developer & Test Engineer"
+        description="Experienced software developer seeking new opportunities to apply expertise and drive innovation."
+        openGraph={{
+          images: [
+            {
+              url:
+                "/flogo.png"
+            }
+          ]
+        }}
+      />
       <Header />
       <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
