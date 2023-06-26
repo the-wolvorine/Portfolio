@@ -18,10 +18,10 @@ export default function Home() {
         openGraph={{
           images: [
             {
-              url:
-                "/flogo.png"
+              url: "/flogo.png"
             }
-          ]
+          ],
+          url: "/flogo.png"
         }}
       />
       <Header />
