@@ -21,7 +21,8 @@ export default function Home() {
               url:
                 "/flogo.png"
             }
-          ]
+          ],
+          url: "https://uday-cheekatipalli.vercel.app/"
         }}
       />
       <Header />
