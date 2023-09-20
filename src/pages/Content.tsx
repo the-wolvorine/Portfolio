@@ -26,7 +26,7 @@ export default function Content() {
                     <div className="mx-auto lg:mx-0">
                     <h2 className="text-3xl text-center font-bold tracking-tight text-white sm:text-4xl mb-20">{"Hi, I'm Uday. Nice to meet you."}</h2>
                     <p className="mt-6 text-lg text-center leading-8 text-gray-300">
-                    With 3 years of extensive IT experience, I am a skilled Front-End UI developer proficient in HTML5, CSS, JavaScript, jQuery, AJAX, JSON, XML, Bootstrap, ReactJS, AngularJS, Nodejs, and Redux. My expertise lies in designing robust and scalable full-stack applications. I prioritize quality through unit testing, Agile methodologies, and thorough analysis. I actively contribute to SCRUM meetings, follow industry best practices, and possess knowledge of data manipulation and modeling principles.
+                    With over 3 years of extensive IT experience, I am a skilled Front-End UI developer proficient in HTML5, CSS, JavaScript, jQuery, AJAX, JSON, XML, Bootstrap, ReactJS, AngularJS, Nodejs, and Redux. My expertise lies in designing robust and scalable full-stack applications. I prioritize quality through unit testing, Agile methodologies, and thorough analysis. I actively contribute to SCRUM meetings, follow industry best practices, and possess knowledge of data manipulation and modeling principles.
                     </p>
                     </div>
                 </div>
