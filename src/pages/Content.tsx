@@ -16,7 +16,7 @@ export default function Content() {
         scroll.scrollToTop();
     };
     const handleDownload = () => {
-        const win = window.open('/Uday_Resume.pdf', '_blank');
+        const win = window.open('/udaycheekatipalli_resume_2024.pdf', '_blank');
         win?.focus();
     };
     return (
