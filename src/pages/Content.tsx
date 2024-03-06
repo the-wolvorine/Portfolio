@@ -88,7 +88,7 @@ export default function Content() {
                                     <div className="flex items-center rounded-lg border border-black bg-white hover:bg-slate-300 px-3 py-1 text-xs font-medium leading-5 text-black ">AngularJS</div>
                                 </li>
                                 <li className="mr-1.5 mt-2">
-                                    <div className="flex items-center rounded-lg border border-black bg-white hover:bg-slate-300 px-3 py-1 text-xs font-medium leading-5 text-black ">RESTful API's</div>
+                                    <div className="flex items-center rounded-lg border border-black bg-white hover:bg-slate-300 px-3 py-1 text-xs font-medium leading-5 text-black ">RESTful APIs</div>
                                 </li>
                                 <li className="mr-1.5 mt-2">
                                     <div className="flex items-center rounded-lg border border-black bg-white hover:bg-slate-300 px-3 py-1 text-xs font-medium leading-5 text-black ">Selenium</div>
