@@ -16,7 +16,7 @@ export default function Content() {
         scroll.scrollToTop();
     };
     const handleDownload = () => {
-        const win = window.open('/udaycheekatipalli_resume_2024.pdf', '_blank');
+        const win = window.open('/Uday_Resume_24.pdf', '_blank');
         win?.focus();
     };
     return (
@@ -26,7 +26,7 @@ export default function Content() {
                     <div className="mx-auto lg:mx-0">
                     <h2 className="text-3xl text-center font-bold tracking-tight text-white sm:text-4xl mb-20">{"Hi, I'm Uday. Nice to meet you."}</h2>
                     <p className="mt-6 text-lg text-center leading-8 text-gray-300">
-                    With around 4 years of extensive IT experience, I am a skilled Front-End UI developer proficient in HTML5, CSS, JavaScript, jQuery, AJAX, JSON, XML, Bootstrap, ReactJS, AngularJS, Nodejs, and Redux. My expertise lies in designing robust and scalable full-stack applications. I prioritize quality through unit testing, Agile methodologies, and thorough analysis. I actively contribute to SCRUM meetings, follow industry best practices, and possess knowledge of data manipulation and modeling principles.
+                    With 5 years of extensive IT experience, I am a skilled Front-End UI developer proficient in HTML5, CSS, JavaScript, jQuery, AJAX, JSON, XML, Bootstrap, ReactJS, AngularJS, TypeScript, Nodejs, and Redux. My expertise lies in designing robust and scalable full-stack applications. I prioritize quality through unit testing, Agile methodologies, and thorough analysis. I actively contribute to SCRUM meetings, follow industry best practices, and possess knowledge of data manipulation and modeling principles.
                     </p>
                     </div>
                 </div>
@@ -72,12 +72,15 @@ export default function Content() {
                 <div className="w-full md:w-1/2 xl:w-1/3 mb-12">
                     <div className="bg-white overflow-hidden">
                         <div className="flex flex-col justify-center items-center">
-                        <h3 className="text-xl font-semibold m-2">Full-Stack Developer</h3>
-                        <p>Apr 2019 - Sep 2020</p>
+                        <h3 className="text-xl font-semibold m-2">Senior Front-End Developer</h3>
+                        <p>Sep 2021 - Sep 2023</p>
                         <div className="border-t border-gray-200 pt-4 mx-8">
-                            <p className="px-8 pt-8 text-center text-black">Enroco is a leading Ruby on Rails development and technology consulting company specializing in custom software and mobile development. With 3 years of experience at Enroco Technologies, I have been involved in full-stack development across various platforms using modern languages and frameworks.</p>
+                            <p className="px-8 pt-8 text-center text-black">Enroco is a leading Ruby on Rails development and technology consulting company specializing in custom software and mobile development. With 5 years of experience at Enroco Technologies, I have been involved in full-stack development across various platforms using modern languages and frameworks.</p>
                         </div>
                         <ul className="mx-4 px-12 flex flex-wrap justify-center">
+                                <li className="mr-1.5 mt-2">
+                                    <div className="flex items-center rounded-lg border border-black bg-white hover:bg-slate-300 px-3 py-1 text-xs font-medium leading-5 text-black ">MERN Stack</div>
+                                </li>
                                 <li className="mr-1.5 mt-2">
                                     <div className="flex items-center rounded-lg border border-black bg-white hover:bg-slate-300 px-3 py-1 text-xs font-medium leading-5 text-black ">ReactJS</div>
                                 </li>
@@ -85,13 +88,10 @@ export default function Content() {
                                     <div className="flex items-center rounded-lg border border-black bg-white hover:bg-slate-300 px-3 py-1 text-xs font-medium leading-5 text-black ">AngularJS</div>
                                 </li>
                                 <li className="mr-1.5 mt-2">
-                                    <div className="flex items-center rounded-lg border border-black bg-white hover:bg-slate-300 px-3 py-1 text-xs font-medium leading-5 text-black ">Java</div>
+                                    <div className="flex items-center rounded-lg border border-black bg-white hover:bg-slate-300 px-3 py-1 text-xs font-medium leading-5 text-black ">RESTful API's</div>
                                 </li>
                                 <li className="mr-1.5 mt-2">
                                     <div className="flex items-center rounded-lg border border-black bg-white hover:bg-slate-300 px-3 py-1 text-xs font-medium leading-5 text-black ">Selenium</div>
-                                </li>
-                                <li className="mr-1.5 mt-2">
-                                    <div className="flex items-center rounded-lg border border-black bg-white hover:bg-slate-300 px-3 py-1 text-xs font-medium leading-5 text-black ">REST</div>
                                 </li>
                                 <li className="mr-1.5 mt-2">
                                     <div className="flex items-center rounded-lg border border-black bg-white hover:bg-slate-300 px-3 py-1 text-xs font-medium leading-5 text-black ">Python</div>
@@ -103,8 +103,8 @@ export default function Content() {
                     <div className="w-full md:w-1/2 xl:w-1/3 mb-12">
                         <div className="bg-white overflow-hidden">
                             <div className="flex flex-col justify-center items-center">
-                            <h3 className="text-xl font-semibold m-2">Junior Full-stack Developer</h3>
-                            <p>June 2018 - Apr 2019</p>
+                            <h3 className="text-xl font-semibold m-2">Front-End Developer</h3>
+                            <p>June 2018 - Sep 2021</p>
                             <div className="border-t border-gray-200 pt-4 mx-8">
                                 <p className="px-8 pt-8 text-center text-black">Responsible for developing and maintaining web applications, with exposure to both frontend and backend technologies. Collaborating with senior consultants to provide technical expertise, participate in project planning and execution, and contribute to the development of scalable and secure solutions.</p>
                             </div>
@@ -343,14 +343,14 @@ export default function Content() {
                                     </button>
                                     </div>
                                     <div className="p-4">
-                                    <a href="tel:+3143192625" title="Make a call">
+                                    <a href="tel:+1 3143192625" title="Make a call">
                                         <button className="transition ease-in-out duration-700 hover:-translate-1 hover:scale-110 px-4 flex border-2 rounded-lg bg-blue-800 px-3.5 py-2.5 shadow-sm hover:bg-green-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 text-white hover:text-black">
                                             <p className="text-center text-lg font-semibold px-4">Say Hello</p><PhoneArrowUpRightIcon className="h-6 w-6 text-lg" />
                                         </button>
                                     </a>
                                     </div>
                                     <div className="p-4">
-                                    <a href="mailto:udaycreddy11@gmail.com" title="Send an Email">
+                                    <a href="mailto:udayrkreddy@gmail.com" title="Send an Email">
                                         <button className="transition ease-in-out duration-700 hover:-translate-1 hover:scale-110 px-4 flex border-2 rounded-lg bg-blue-800 px-3.5 py-2.5 shadow-sm hover:bg-green-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 text-white hover:text-black">
                                             <p className="text-center text-lg font-semibold px-4">Email Me</p><EnvelopeIcon className="h-6 w-6 text-lg" />
                                         </button>
