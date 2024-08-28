@@ -16,7 +16,7 @@ export default function Content() {
         scroll.scrollToTop();
     };
     const handleDownload = () => {
-        const win = window.open('/Uday_Resume_24.pdf', '_blank');
+        const win = window.open('/UDAY_CHEEKATIPALLI_RESUME.pdf', '_blank');
         win?.focus();
     };
     return (
@@ -72,10 +72,10 @@ export default function Content() {
                 <div className="w-full md:w-1/2 xl:w-1/3 mb-12">
                     <div className="bg-white overflow-hidden">
                         <div className="flex flex-col justify-center items-center">
-                        <h3 className="text-xl font-semibold m-2">Senior Front-End Developer</h3>
-                        <p>Sep 2021 - Sep 2023</p>
+                        <h3 className="text-xl font-semibold m-2">Software Developer</h3>
+                        <p>Feb 2024 - Current</p>
                         <div className="border-t border-gray-200 pt-4 mx-8">
-                            <p className="px-8 pt-8 text-center text-black">Enroco is a leading Ruby on Rails development and technology consulting company specializing in custom software and mobile development. With 5 years of experience at Enroco Technologies, I have been involved in full-stack development across various platforms using modern languages and frameworks.</p>
+                            <p className="px-8 pt-8 text-center text-black">Led a team of front-end developers using MERN stack to build and maintain responsive web applications. Implemented new features, optimized performance, ensured quality through testing, and leveraged machine learning for personalized recommendations.</p>
                         </div>
                         <ul className="mx-4 px-12 flex flex-wrap justify-center">
                                 <li className="mr-1.5 mt-2">
@@ -85,7 +85,7 @@ export default function Content() {
                                     <div className="flex items-center rounded-lg border border-black bg-white hover:bg-slate-300 px-3 py-1 text-xs font-medium leading-5 text-black ">ReactJS</div>
                                 </li>
                                 <li className="mr-1.5 mt-2">
-                                    <div className="flex items-center rounded-lg border border-black bg-white hover:bg-slate-300 px-3 py-1 text-xs font-medium leading-5 text-black ">AngularJS</div>
+                                    <div className="flex items-center rounded-lg border border-black bg-white hover:bg-slate-300 px-3 py-1 text-xs font-medium leading-5 text-black ">NodeJS</div>
                                 </li>
                                 <li className="mr-1.5 mt-2">
                                     <div className="flex items-center rounded-lg border border-black bg-white hover:bg-slate-300 px-3 py-1 text-xs font-medium leading-5 text-black ">RESTful APIs</div>
@@ -103,8 +103,8 @@ export default function Content() {
                     <div className="w-full md:w-1/2 xl:w-1/3 mb-12">
                         <div className="bg-white overflow-hidden">
                             <div className="flex flex-col justify-center items-center">
-                            <h3 className="text-xl font-semibold m-2">Front-End Developer</h3>
-                            <p>June 2018 - Sep 2021</p>
+                            <h3 className="text-xl font-semibold m-2">Full Stack Developer</h3>
+                            <p>Mar 2020 - Dec 2021</p>
                             <div className="border-t border-gray-200 pt-4 mx-8">
                                 <p className="px-8 pt-8 text-center text-black">Responsible for developing and maintaining web applications, with exposure to both frontend and backend technologies. Collaborating with senior consultants to provide technical expertise, participate in project planning and execution, and contribute to the development of scalable and secure solutions.</p>
                             </div>
@@ -122,7 +122,7 @@ export default function Content() {
                                     <div className="flex items-center rounded-lg border border-black bg-white hover:bg-slate-300 px-3 py-1 text-xs font-medium leading-5 text-black ">TypeScript</div>
                                 </li>
                                 <li className="mr-1.5 mt-2">
-                                    <div className="flex items-center rounded-lg border border-black bg-white hover:bg-slate-300 px-3 py-1 text-xs font-medium leading-5 text-black ">Java</div>
+                                    <div className="flex items-center rounded-lg border border-black bg-white hover:bg-slate-300 px-3 py-1 text-xs font-medium leading-5 text-black ">Angular</div>
                                 </li>
                                 <li className="mr-1.5 mt-2">
                                     <div className="flex items-center rounded-lg border border-black bg-white hover:bg-slate-300 px-3 py-1 text-xs font-medium leading-5 text-black ">Ruby on Rails</div>
@@ -134,10 +134,10 @@ export default function Content() {
                     <div className="w-full md:w-1/2 xl:w-1/3 mb-12">
                         <div className="bg-white overflow-hidden">
                             <div className="flex flex-col justify-center items-center">
-                            <h3 className="text-xl font-semibold m-2">Full-stack Developer - Intern</h3>
-                            <p>Dec 2017 - June 2018</p>
+                            <h3 className="text-xl font-semibold m-2">Junior Full-stack Developer</h3>
+                            <p>Sep 2017 - Feb 2020</p>
                             <div className="border-t border-gray-200 pt-4 mx-8">
-                                <p className="px-8 pt-8 text-center text-black">As an intern, I have gained hands-on experience in designing and developing web applications and contributed my skills to build robust and scalable features. With a strong focus on learning and problem-solving, I have actively participated in cross-functional teams and adapted to agile development methodologies.</p>
+                                <p className="px-8 pt-8 text-center text-black">As a junior developer, I have gained hands-on experience in designing and developing web applications and contributed my skills to build robust and scalable features. With a strong focus on learning and problem-solving, I have actively participated in cross-functional teams and adapted to agile development methodologies.</p>
                             </div>
                             <ul className="mx-4 px-12 flex flex-wrap justify-center">
                                 <li className="mr-1.5 mt-2">
@@ -182,8 +182,8 @@ export default function Content() {
                             <div className="px-0 lg:px-12 sm:px-6 mb-12">
                                 <div className="transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110 bg-white rounded-lg shadow-lg shadow-cyan-500/50 overflow-hidden">
                                     <div className="flex flex-col justify-center items-center p-4" style={{"minHeight": "25rem"}}>
-                                    <h3 className="text-xl font-semibold m-2">SnugSquare</h3>
-                                    <p className="p-4 text-center text-black">SnugSquare is a cutting-edge e-commerce web application designed for enterprise-level B2B transactions. SnugSquare offers a seamless user experience and leverages advanced technologies to ensure efficient operations and reliable performance.</p>
+                                    <h3 className="text-xl font-semibold m-2">Tata Group</h3>
+                                    <p className="p-4 text-center text-black">Worked on a cutting-edge e-commerce web application designed for enterprise-level B2B transactions. It offers a seamless user experience and leverages advanced technologies to ensure efficient operations and reliable performance.</p>
                                     </div>
                                 </div>
                             </div>
